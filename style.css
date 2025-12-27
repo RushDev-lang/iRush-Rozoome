@@ -60,3 +60,55 @@ footer{text-align:center;padding:40px;color:#6b7280;text-shadow:0 0 5px #8b5cf6;
 
 /* ====================== Responsive ====================== */
 @media(max-width:600px){.hero h1{font-size:2.4rem;}.hero p{font-size:1.1rem;}.buttons a{padding:10px 22px;}.hero-logo{width:80px;height:80px;}}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+  text-align: left; /* تراز کردن متن لیبل‌ها به چپ */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.contact-form input, 
+.contact-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #334155;
+  background-color: #0f172a;
+  color: white;
+  font-family: inherit;
+}
+
+.contact-form input:focus, 
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #38bdf8;
+  box-shadow: 0 0 5px rgba(56, 189, 248, 0.5);
+}
+
+.submit-btn {
+  background-color: #38bdf8;
+  color: #0f172a;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #0ea5e9;
+}
+
+.social-links {
+  margin-top: 25px;
+  padding-top: 20px;
+  border-top: 1px solid #334155;
+}
